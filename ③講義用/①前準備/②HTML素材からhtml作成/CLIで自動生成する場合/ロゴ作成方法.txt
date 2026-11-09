@@ -1,0 +1,17 @@
+powershellで以下を実行
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\modernize_logo.ps1 ロゴ.png
+
+
+
+■Claude Code CLIの指定内容
+claude -p "<prompt.md の内容>" --allowedTools "Read,Write" --permission-mode acceptEdits
+
+-p を付けると、対話せずに1回だけ実行して終了します。そのため、スクリプトやバッチ処理の中から呼び出せます。
+--allowedTools "Read,Write" で、画像を読むことと、ファイルを書くことだけを許可しています。
+--permission-mode acceptEdits で、ファイルの書き込みを確認なしで通します。
+	これがないと、実行中に許可を求められて止まります。
+
+日本語ファイル名による文字化けを避けるため、一時フォルダに input.png として複製して処理します。
+完成した output.svg は、ロゴ.svg として元のフォルダに戻します。

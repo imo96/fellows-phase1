@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="1080" viewBox="0 0 680 540"><title>Grumpy robot</title>
+<rect width="680" height="540" fill="#F1F4FA"/>
+<circle cx="340" cy="285" r="240" fill="#DCE5F5"/>
+<ellipse cx="340" cy="492" rx="150" ry="14" fill="#C5D1EA"/>
+<g stroke="#3A52C4" stroke-width="14" stroke-linejoin="round" fill="#3A52C4"><polygon points="178,225 198,102 300,170"/><polygon points="502,225 482,102 380,170"/></g>
+<rect x="150" y="150" width="380" height="320" rx="100" fill="#4F6BED"/>
+<rect x="185" y="215" width="310" height="205" rx="64" fill="#1F2340"/>
+<ellipse cx="270" cy="292" rx="36" ry="28" fill="#7CF5E0"/>
+<ellipse cx="410" cy="292" rx="36" ry="28" fill="#7CF5E0"/>
+<polygon points="226,250 310,250 310,298 226,274" fill="#1F2340"/>
+<polygon points="454,250 370,250 370,298 454,274" fill="#1F2340"/>
+<g stroke="#7CF5E0" stroke-width="5" stroke-linecap="round" fill="none"><path d="M230 276 L312 299"/><path d="M450 276 L368 299"/></g>
+<path d="M340 322 L340 346" stroke="#A9B8FF" stroke-width="6" stroke-linecap="round"/>
+<circle cx="340" cy="322" r="7" fill="#FFB86B"/>
+<path d="M290 392 Q340 352 390 392" stroke="#7CF5E0" stroke-width="7" stroke-linecap="round" fill="none"/>
+<g stroke="#4A5389" stroke-width="4" stroke-linecap="round"><path d="M205 352 L258 352"/><path d="M205 368 L250 368"/><path d="M475 352 L422 352"/><path d="M475 368 L430 368"/></g>
+<circle cx="167" cy="330" r="8" fill="#A9B8FF"/><circle cx="513" cy="330" r="8" fill="#A9B8FF"/>
+<g stroke="#FFB86B" stroke-width="5" stroke-linecap="round"><path d="M560 262 L570 282"/><path d="M582 255 L592 275"/></g>
+</svg>

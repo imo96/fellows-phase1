@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="1080" viewBox="0 0 680 540"><title>Grumpy cat</title>
+<rect width="680" height="540" fill="#FFF7EE"/>
+<circle cx="340" cy="285" r="240" fill="#FFE3CC"/>
+<g stroke="#F4A259" stroke-width="14" stroke-linejoin="round" fill="#F4A259"><polygon points="172,255 195,100 302,178"/><polygon points="508,255 485,100 378,178"/></g>
+<polygon points="203,228 211,140 268,185" fill="#F7B5B0"/>
+<polygon points="477,228 469,140 412,185" fill="#F7B5B0"/>
+<ellipse cx="340" cy="300" rx="190" ry="155" fill="#F4A259"/>
+<g fill="none" stroke="#DE8333" stroke-width="9" stroke-linecap="round"><path d="M340 160 L340 205"/><path d="M308 166 L316 202"/><path d="M372 166 L364 202"/></g>
+<ellipse cx="340" cy="378" rx="78" ry="52" fill="#FFF1E0"/>
+<ellipse cx="270" cy="302" rx="40" ry="33" fill="#FFFFFF"/>
+<ellipse cx="410" cy="302" rx="40" ry="33" fill="#FFFFFF"/>
+<circle cx="282" cy="306" r="21" fill="#5FAE93"/>
+<circle cx="398" cy="306" r="21" fill="#5FAE93"/>
+<circle cx="282" cy="306" r="11" fill="#2B2D42"/>
+<circle cx="398" cy="306" r="11" fill="#2B2D42"/>
+<circle cx="288" cy="299" r="5" fill="#FFFFFF"/>
+<circle cx="392" cy="299" r="5" fill="#FFFFFF"/>
+<polygon points="222,258 316,258 316,302 222,278" fill="#F4A259"/>
+<polygon points="458,258 364,258 364,302 458,278" fill="#F4A259"/>
+<g stroke="#2B2D42" stroke-width="5" stroke-linecap="round" fill="none"><path d="M228 279 L314 302"/><path d="M452 279 L366 302"/></g>
+<path d="M322 352 Q340 346 358 352 Q352 368 340 370 Q328 368 322 352 Z" fill="#E4736F"/>
+<g stroke="#2B2D42" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M340 370 L340 386"/><path d="M296 414 Q318 380 340 386 Q362 380 384 414"/></g>
+<g stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" fill="none" opacity="0.9"><path d="M262 372 L150 354"/><path d="M262 386 L140 388"/><path d="M266 400 L152 420"/><path d="M418 372 L530 354"/><path d="M418 386 L540 388"/><path d="M414 400 L528 420"/></g>
+<g stroke="#E4736F" stroke-width="5" stroke-linecap="round" opacity="0.75"><path d="M204 350 L212 368"/><path d="M222 346 L230 364"/><path d="M476 350 L468 368"/><path d="M458 346 L450 364"/></g>
+</svg>

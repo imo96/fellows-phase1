@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0" stop-color="#FFF6E9"/>
+      <stop offset="1" stop-color="#FFE1E8"/>
+    </radialGradient>
+    <radialGradient id="face" cx="45%" cy="35%" r="75%">
+      <stop offset="0" stop-color="#FFFDF8"/>
+      <stop offset="0.65" stop-color="#FFEFD9"/>
+      <stop offset="1" stop-color="#FFD9C0"/>
+    </radialGradient>
+    <radialGradient id="cheek" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FF9DB0" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#FF9DB0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="eye" cx="50%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#7A5A6E"/>
+      <stop offset="1" stop-color="#3E2C44"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <clipPath id="appIcon"><rect width="800" height="800" rx="180"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#appIcon)">
+    <rect width="800" height="800" fill="url(#bg)"/>
+    <circle cx="140" cy="130" r="60" fill="#FFFFFF" opacity="0.5"/>
+    <circle cx="690" cy="680" r="80" fill="#FFFFFF" opacity="0.4"/>
+
+    <!-- shadow -->
+    <ellipse cx="400" cy="690" rx="230" ry="26" fill="#E7A9B8" opacity="0.45" filter="url(#soft)"/>
+
+    <!-- ears -->
+    <path d="M150 330 Q130 180 215 150 Q265 140 335 215 Z" fill="#FFD9C0" stroke="#FFD9C0" stroke-width="40" stroke-linejoin="round"/>
+    <path d="M650 330 Q670 180 585 150 Q535 140 465 215 Z" fill="#FFD9C0" stroke="#FFD9C0" stroke-width="40" stroke-linejoin="round"/>
+    <path d="M185 290 Q175 215 220 195 Q250 195 290 235 Z" fill="#FFB7C5" stroke="#FFB7C5" stroke-width="22" stroke-linejoin="round"/>
+    <path d="M615 290 Q625 215 580 195 Q550 195 510 235 Z" fill="#FFB7C5" stroke="#FFB7C5" stroke-width="22" stroke-linejoin="round"/>
+
+    <!-- head -->
+    <ellipse cx="400" cy="470" rx="290" ry="230" fill="url(#face)"/>
+    <ellipse cx="400" cy="470" rx="290" ry="230" fill="none" stroke="#F2BFA4" stroke-width="6" opacity="0.7"/>
+    <!-- forehead stripes -->
+    <g stroke="#F7B98F" stroke-width="16" stroke-linecap="round" fill="none">
+      <path d="M400 262 L400 305"/>
+      <path d="M350 268 L360 305"/>
+      <path d="M450 268 L440 305"/>
+    </g>
+
+    <!-- brows (grumpy) -->
+    <g stroke="#A8776E" stroke-width="16" stroke-linecap="round" fill="none">
+      <path d="M215 365 Q255 350 305 372"/>
+      <path d="M585 365 Q545 350 495 372"/>
+    </g>
+
+    <!-- cheeks -->
+    <ellipse cx="190" cy="530" rx="62" ry="42" fill="url(#cheek)"/>
+    <ellipse cx="610" cy="530" rx="62" ry="42" fill="url(#cheek)"/>
+
+    <!-- eyes -->
+    <g>
+      <ellipse cx="270" cy="450" rx="55" ry="64" fill="url(#eye)"/>
+      <ellipse cx="530" cy="450" rx="55" ry="64" fill="url(#eye)"/>
+      <circle cx="288" cy="426" r="21" fill="#fff"/>
+      <circle cx="548" cy="426" r="21" fill="#fff"/>
+      <circle cx="252" cy="476" r="10" fill="#fff" opacity="0.9"/>
+      <circle cx="512" cy="476" r="10" fill="#fff" opacity="0.9"/>
+      <path d="M222 470 Q222 500 262 505" stroke="#fff" stroke-opacity="0.35" stroke-width="6" fill="none" stroke-linecap="round"/>
+    </g>
+
+    <!-- tears -->
+    <g>
+      <path d="M232 520 Q205 565 232 585 Q258 565 232 520 Z" fill="#BFE6F7" stroke="#8CCBEA" stroke-width="8" stroke-linejoin="round"/>
+      <path d="M568 520 Q541 565 568 585 Q594 565 568 520 Z" fill="#BFE6F7" stroke="#8CCBEA" stroke-width="8" stroke-linejoin="round"/>
+      <circle cx="228" cy="567" r="5" fill="#fff"/>
+      <circle cx="564" cy="567" r="5" fill="#fff"/>
+    </g>
+
+    <!-- nose -->
+    <path d="M375 520 Q400 512 425 520 Q425 545 400 553 Q375 545 375 520 Z" fill="#FF93A8" stroke="#FF93A8" stroke-width="10" stroke-linejoin="round"/>
+    <ellipse cx="392" cy="523" rx="8" ry="4" fill="#fff" opacity="0.7"/>
+
+    <!-- frown mouth -->
+    <path d="M345 625 Q372 592 400 600 Q428 592 455 625" fill="none" stroke="#B5687B" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M400 556 L400 600" stroke="#B5687B" stroke-width="12" stroke-linecap="round"/>
+
+    <!-- whiskers -->
+    <g stroke="#C9A4A0" stroke-width="12" stroke-linecap="round">
+      <path d="M150 585 L95 575"/>
+      <path d="M150 625 L100 640"/>
+      <path d="M650 585 L705 575"/>
+      <path d="M650 625 L700 640"/>
+    </g>
+
+    <!-- cheek marks (right) -->
+    <g stroke="#FF8FA6" stroke-width="14" stroke-linecap="round">
+      <path d="M585 495 L596 520"/>
+      <path d="M620 490 L631 515"/>
+    </g>
+  </g>
+</svg>
