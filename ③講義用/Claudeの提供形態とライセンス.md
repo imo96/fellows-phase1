@@ -35,9 +35,7 @@ Chrome拡張は、次の2つの機能から呼び出せる。
 
 ※5 Claude in Chrome：Chromeの拡張機能（Chrome Web Storeからインストールし、Claudeアカウントでサインイン）。ページの閲覧・クリック・入力などのブラウザ操作を担い、頭脳にあたるのはClaude。操作の実行役は拡張機能で、指示を出す入口は次の3つ：①Chromeのサイドパネル（Coworkセッションとして動作する、拡張機能内のチャット画面。Proは順次展開中(未提供のアカウントあり)、Enterpriseは管理者の有効化まで従来型）、②Claude Desktop（コネクタ設定で有効化。Chat/Cowork/Claude Codeから指示可）、③Claude Code。claude.ai(Web)・モバイル単体からは直接操作できないが、Claude Desktopを開いて接続していれば、別の画面から指示してChromeを操作できる（サイドパネルで始めたセッションはWeb・Desktop・モバイルで続けられる）。サインイン済みのサイトを操作できるため、プロンプトインジェクションなどのリスクに注意
 
-※6 Claude for Excel：Excelの中でClaudeを使うためのアドイン。Claudeのアプリ（Web・デスクトップ）とは別に、Excel側にアドインを追加して使う。開いているブックについて質問したり、数式の関係を保ったまま前提条件を変更したり、エラーの原因を調べたり、モデルやテンプレートを作成したりできる。Microsoft AppSourceの「Claude for Microsoft 365」として提供され、1つのアドインでExcel・PowerPoint・Word・Outlookを横断して使える。利用にはPro以上の有料プランが必要。対応するExcelは、Excel for the web（無料のMicrosoftアカウントでも可）とMicrosoft 365版で、2019などの買い切り版は非対応。マクロ・VBAも非対応。外部から入手したファイルでは、プロンプトインジェクションに注意
-
-※ WEB版とデスクトップアプリの連携：同じアカウントなら、デスクトップで始めた会話やプロジェクト（添付ファイル含む）を、claude.aiやスマホから続けられる（セッションは端末ではなくClaudeアカウントに紐づく）。ただし、ローカルファイルやパソコンの操作が必要なCowork等のタスクは、Claude Desktopを開いてオンラインにしておく必要がある
+※6 Claude for Excel：Excelの中でClaudeを使うためのアドイン。Claudeのアプリ（Web・デスクトップ）とは別に、Excel側に追加して使う。Microsoft AppSourceの「Claude for Microsoft 365」として提供され、Excel・PowerPoint・Word・Outlookそれぞれにアドインを追加して使える。開いているブックについて質問したり、数式の関係を保ったまま前提条件を変更したり、エラーの原因を調べたり、モデルやテンプレートを作成したりできる。対応するExcelは、Excel for the web（無料のMicrosoftアカウントでも可）とMicrosoft 365版で、2019などの買い切り版は非対応。マクロ・VBAも非対応。外部から入手したファイルでは、プロンプトインジェクションに注意。機密情報を扱う場合は、Coworkを起動させない（CoworkとOfficeアドインを併用すると、Claudeがアプリ間でデータを読み書きしたり、受け渡したりすることがある）
 
 ## ライセンスの違い（概要）
 
